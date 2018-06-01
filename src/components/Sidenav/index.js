@@ -2,26 +2,26 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Sidenav = props => (
-  <ul id="slide-out" class="side-nav fixed">
+  <ul id="slide-out" className="side-nav fixed">
     <li>
-      <div class="user-view">
-        <div class="background">
+      <div className="user-view">
+        <div className="background">
           <img src={props.img} alt="img-user" />
         </div>
         <a href="#!name">
-          <span class="white-text name">{props.name}</span>
+          <span className="white-text name">{props.name}</span>
         </a>
         <a href="#!email">
-          <span class="white-text email">{props.email}</span>
+          <span className="white-text email">{props.email}</span>
         </a>
       </div>
     </li>
     <li>
-      <a class="subheader">Menu</a>
+      <a className="subheader">Menu</a>
     </li>
     <li>
       <a href="#!">
-        <i class="material-icons">contacts</i>Parceiros
+        <i className="material-icons">contacts</i>Parceiros
       </a>
     </li>
   </ul>

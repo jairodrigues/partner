@@ -6,6 +6,7 @@ import registerServiceWorker from './registerServiceWorker';
 
 // CSS MATERIALIZE
 import './assets/css/materialize.css';
+import './assets/css/style.css';
 
 ReactDOM.render(
   <BrowserRouter>
